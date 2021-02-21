@@ -35,8 +35,8 @@ html {
 }
 body{
 	font-family: "Mulish";
-	font-size: 16px;
-	line-height: 2;
+	font-size: 14px;
+	line-height: 1.8;
 	letter-spacing: 0.8px;
 	word-wrap: break-word;
 	font-weight: 400;
@@ -134,6 +134,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	height: auto;
 	clear: both;
 	float: left;
+	/* padding-bottom: 90px; */
 }
 .arlo_tm_preloader{
   position: fixed;
@@ -622,7 +623,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	font-size: 45px;
 	font-weight: 700;
 }
-.arlo_tm_hero_header .hero_content .name_holder h3 span{color:  #e3872d;}
+.arlo_tm_hero_header .hero_content .name_holder h3 span{color:  #fff;}
 .arlo_tm_hero_header .hero_content .text_typing p{
 	color: #fff;
 	font-size: 19px;
@@ -722,7 +723,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	height: auto;
 	clear: both;
 	float: left;
-	margin-bottom: 160px;
+	margin-bottom: 60px;
 }
 .arlo_tm_about .about_inner{
 	width: 100%;
@@ -730,7 +731,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	clear: both;
 	float: left;
 	display: flex;
-	padding-top: 80px;
+	padding-top: 40px;
 }
 .arlo_tm_about .leftbox{
 	width: 35%;
@@ -896,12 +897,12 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_title_holder h3{
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 35px;
+	font-size: 30px;
 	padding-top: 50px !important;
 }
 .arlo_title_holder span{
 	display: inline-block;
-	font-size: 14px;
+	font-size: 30px;
 	text-transform: uppercase;
 	color: #e54b4b;
 	font-weight: 500;
@@ -917,15 +918,16 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	clear: both;
 	float: left;
 	background-color: #f9f9f9;
-	padding: 140px 0px 125px 0px;
+	padding: 40px 0px 0px 0px;
 }
-.arlo_tm_services .service_inner{
-	width: 100%;
+.arlo_tm_services .inner_wrap{
+	width: 45%;
 	height: auto;
 	clear: both;
 	float: left;
-	padding-top: 90px;
-	margin-bottom: 90px;
+	padding-right: 40px;
+	margin-bottom: 25px;
+	display: flex;
 }
 .arlo_tm_services .service_inner ul{
 	margin: 0px 0px 0px -50px;
@@ -970,11 +972,44 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	margin-bottom: 20px;
 }
 
-.arlo_tm_progress_wrap{
+/* .arlo_tm_progress_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
+	position: absolute;
+	padding-left: 70px;	
+	top: 45px;
+} */
+
+.arlo_tm_progress span {
+
+	font-size: 15px;
+
+}
+
+.arlo_tm_progress span.experience {
+	font-size: 13px;
+}
+
+.arlo_tm_title_holder h3 {
+	/* padding-bottom: 30px; */
+	
+}
+
+.arlo_tm_progress_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;	
+	position: absolute;
+	margin-top: -4px;
+	padding-left: 70px;
+	top: 45px;
+  
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_progress_wrap .progress_wrap_inner{
 	width: 100%;
@@ -1056,8 +1091,8 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	height: auto;
 	clear: both;
 	float: left;
-	margin-bottom: 100px;
-	padding-top: 141px;
+	margin-bottom: 20px;
+	padding-top: 40px;
 }
 .arlo_tm_portfolio .portfolio_inner{
 	width: 100%;
@@ -1563,7 +1598,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 140px 0px 156px 0px;
+	padding: 40px 0px 40px 0px;
 }
 .arlo_tm_contact .contact_inner{
 	width: 100%;
@@ -1581,7 +1616,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_contact .desc{
 	max-width: 50%;
 	float: left;
-	padding-top: 77px;
+	padding-top: 37px;
 }
 .arlo_tm_contact .contact_inner .left{
 	width: 50%;
@@ -2492,7 +2527,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-image: url("..//img/slider/back-1.jpg");
+	background-image: url("..//img/slider/shut.jpg");
 }
 .arlo_tm_hero_header .ripple:before{
 	position: absolute;
@@ -2529,7 +2564,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
  	height: 100%;
 	top: 0;
  	left: 0;
-	background-image: url("..//img/slider/bck.jpg");
+	background-image: url("..//img/slider/shut.jpg");
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-position: center;
@@ -2562,7 +2597,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	.arlo_tm_classic_menu{display: none;}
 	.arlo_tm_rightpart{padding-left: 0px;}
 	.arlo_tm_about .about_inner{flex-direction: column;align-items: baseline;}
-	.arlo_tm_about .leftbox{width: 100%;margin-bottom: 70px;}
+	.arlo_tm_about .leftbox{width: 100%; margin-bottom: 70px;}
 	.arlo_tm_about .rightbox{width: 100%;padding-left: 0px;}
 	.arlo_tm_services .service_inner ul li{width: 50%;}
 	.arlo_tm_portfolio .portfolio_list ul li{width: 50%;}
