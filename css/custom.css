@@ -992,10 +992,10 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	font-size: 13px;
 }
 
-.arlo_tm_title_holder h3 {
-	/* padding-bottom: 30px; */
+/* .arlo_tm_title_holder h3 {
+	padding-bottom: 30px;
 	
-}
+} */
 
 .arlo_tm_progress_wrap{
 	width: 100%;
