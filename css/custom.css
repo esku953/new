@@ -1161,8 +1161,9 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	background-size: cover;
 	transition: all .3s ease;
 }
-.arlo_tm_portfolio .portfolio_list ul li .inner:hover .main_image{
+.arlo_tm_portfolio .portfolio_list ul li .inner:hover .main_image {
 	transform: scale(1.1) translateZ(0);
+	
 }
 .arlo_tm_portfolio_titles {
 	white-space: nowrap;
