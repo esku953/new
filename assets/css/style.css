@@ -649,6 +649,7 @@ input[type="checkbox"] {
 .insta-thumb {
     float: left;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .insta-thumb a {
@@ -2465,7 +2466,7 @@ input[type="checkbox"] {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 20px;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 3px;
     text-transform: uppercase;
     line-height: 1.5em;
@@ -2473,7 +2474,7 @@ input[type="checkbox"] {
 
 .additional-menu-content .title-small {
     font-family: 'Oswald', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     text-transform: uppercase;
     color: #F68338;
     font-weight: 400;
@@ -2510,6 +2511,7 @@ input[type="checkbox"] {
         overflow: auto;
         visibility: visible;
         opacity: 1;
+        margin-bottom: 0;
     }
 
     .additional-menu-content > :last-child {
