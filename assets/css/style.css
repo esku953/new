@@ -2551,6 +2551,7 @@ input[type="checkbox"] {
     background-color: #111;
     visibility: hidden;
     opacity: 0;
+    margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
